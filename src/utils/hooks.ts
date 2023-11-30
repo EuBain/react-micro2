@@ -32,8 +32,8 @@ export const useBusOnChangePath:() => void = () => {
 
   useEffect(() => {
     // console.log('ReactMicro2执行')
-    window.$wujie.bus.$on("ReactMicro2Change", changeRoute);
-    window.$wujie.bus.$emit('ReactMicro2Mount', 'ReactMicro2',true)
+    window.$wujie?.bus.$on("ReactMicro2Change", changeRoute);
+    window.$wujie?.bus.$emit('ReactMicro2Mount', 'ReactMicro2',true)
     // return () => {
     //   console.log(222)
     //   window.$wujie.bus.$emit('ReactMicro2Mount', 'ReactMicro2',false)}

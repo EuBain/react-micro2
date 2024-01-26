@@ -29,7 +29,7 @@ const Home = () => {
   // const navigate = useNavigate();
   return (
     <>
-   <div onClick={()=>window.$wujie?.props?.jump('ReactMicro','home')}> 2222</div>
+   <div onClick={()=>window.$wujie?.props?.jump('ReactMicro','index')}> 2222</div>
    {/* <Spin tip="Loading" size="large" style={{position:'a', bottom:'0'}} >
                             <div className="content" />
                         </Spin> */}
